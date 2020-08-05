@@ -55,7 +55,7 @@ function aboutBanner() {
     const h1 = createElement('h1', 'title', 'About');
     const hr = createElement('hr', '', '');
     const p = createElement('p', 'about-deets', `Kowski\'s eats is a restaurant for everyone of all ages\.
-    Our meals are fairly priced and at high quality too.<br/> <br/>Spare sometime and pay us a visit!`);
+    Our meals are fairly priced and at high quality too. \n\n Spare sometime and pay us a visit!`);
     ///////////// APPEND;
     sections.appendChild(banner);
     banner.appendChild(about);
