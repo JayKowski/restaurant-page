@@ -1,0 +1,96 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  background-image: url(../images/restaurant-pic.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* NAVIGATION STUFF */
+nav {
+  background-color: #77e4e0;
+  overflow: auto;
+  opacity: 1;
+  padding: 10px 0;
+}
+
+nav .media {
+  padding: 0 3% 0 1%;
+  text-align: center;
+  margin: 10px 0;
+  width: 10%;
+  float: left;
+}
+
+nav .media .icon {
+  padding: 10px;
+}
+
+nav .media i {
+  width: 22px;
+  height: 18px;
+  padding: 5px;
+  font-size: 19px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 4px 1%;
+  margin: auto;
+  width: 30%;
+}
+
+nav ul li {
+  color: #23001e;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-weight: bolder;
+  font-size: 27px;
+  display: inline-block;
+  padding: 0 4%;
+  width: 15%;
+}
+
+/* WRAPPER STUFF */
+.wrapper .rest-info {
+  position: absolute;
+  left: 34%;
+  top: 25%;
+  text-align: center;
+  background-color: rgba(29, 146, 175, 0.4);
+  border-radius: 12%;
+  padding: 40px 25px;
+}
+
+.wrapper .welcome .rest-logo {
+  width: 150px;
+  height: 100px;
+}
+
+.wrapper .rest-info p {
+  margin: 0;
+
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Amatic SC', cursive;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.wrapper .rest-info hr {
+  border: 1px solid #5f0f40;
+}
+
+.wrapper .rest-dine {
+  width: 100px;
+  height: 50px;
+}

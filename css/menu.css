@@ -1,0 +1,166 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+nav {
+  background-color: #77e4e0;
+  box-shadow: 0 3px 4px #ccc;
+  overflow: auto;
+  opacity: 1;
+  padding: 10px 0;
+}
+
+nav .media {
+  padding: 0 3% 0 1%;
+  text-align: center;
+  margin: 10px 0;
+  width: 10%;
+  float: left;
+}
+
+nav .media .icon {
+  padding: 10px;
+}
+
+nav .media i {
+  width: 22px;
+  height: 18px;
+  padding: 5px;
+  font-size: 19px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 4px 1%;
+  margin: auto;
+  width: 30%;
+}
+
+nav ul li {
+  color: #23001e;
+
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: "Dancing Script", cursive;
+  font-family: "Great Vibes", cursive;
+  font-weight: bolder;
+  font-size: 27px;
+  display: inline-block;
+  padding: 0 4%;
+  width: 15%;
+}
+
+/* menu banner stuff here */
+
+.wrapper .sections {
+  height: 100%;
+}
+
+.wrapper .sections .menu-img {
+  background-image: url(../images/menu-banner-edit.jpg);
+  height: 100%;
+  float: left;
+  width: 60%;
+
+  /* overflow-y: auto; */
+}
+
+.wrapper .sections .menu-sect {
+  margin: 0;
+  height: 100%;
+  float: right;
+  width: 40%;
+  overflow-y: auto;
+}
+
+.wrapper .sections .menu-banner .title {
+  font-family: 'Pacifico', cursive;
+  font-size: 110px;
+  text-align: center;
+  color: #fff;
+  margin: 60px 0 0 0;
+}
+
+.wrapper .sections .menu-banner hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+  width: 65%;
+}
+
+.wrapper .sections .menu-banner .about-deets {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 33px;
+  color: #cdcdcd;
+}
+
+/* Menu section here */
+
+.sections .menu-items h1 {
+  margin: 10px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+}
+
+/* dishes */
+
+.menu-items .dishes .heading {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0 16px 0 16px;
+}
+
+.menu-items .dishes .dish {
+  width: 95%;
+  margin: 15px auto;
+  padding-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.menu-items .dishes .dish-image {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu-items .dishes img {
+  vertical-align: sub;
+  padding: 10px;
+  margin-top: 10px;
+  width: 160px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.menu-items .dishes .ingredients {
+  margin-bottom: 5px;
+}
+
+.menu-items .dishes .dish-info {
+  margin: 10px 0;
+  display: inline-block;
+  width: 55%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.menu-items .dishes .size-price {
+  margin: 4px;
+  padding: 5px;
+  color: #aaa;
+}
