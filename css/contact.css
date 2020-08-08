@@ -159,3 +159,7 @@ nav ul li {
   color: #444;
   width: 30%;
 }
+
+.wrapper .link:hover {
+  cursor: pointer;
+}

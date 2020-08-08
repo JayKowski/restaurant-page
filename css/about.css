@@ -156,3 +156,7 @@ nav ul li {
   position: relative;
   left: 40px;
 }
+
+.wrapper .link:hover {
+  cursor: pointer;
+}

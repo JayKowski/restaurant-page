@@ -164,3 +164,7 @@ nav ul li {
   padding: 5px;
   color: #aaa;
 }
+
+.wrapper .link:hover {
+  cursor: pointer;
+}
