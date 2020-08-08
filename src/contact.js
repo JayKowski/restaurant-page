@@ -54,6 +54,7 @@ function contactForm() {
 
   const label4 = formElemGen('others', 'Anything here', '', '', '');
   const input4 = formElemGen('', '', 'text', 'others', 'others');
+
   const submit = createElement('input', '', '');
   submit.setAttribute('type', 'Submit');
   submit.setAttribute('value', 'Send');
