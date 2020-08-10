@@ -29,7 +29,7 @@ This project utilizes:
 
 ## Contributors
 
-- Alvaro Paz
+- Jay Maina
   - Linkedin: [@jay-maina](https://www.linkedin.com/in/jay-maina/)
   - GitHub: [@JayKowski](https://github.com/JayKowski)
   
