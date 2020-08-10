@@ -1,8 +1,8 @@
 import createElement from './elementFactory';
 import '../css/menu.css';
-//import images;
+// import images;
 
-import '../images/pepperoni-pizza.jpg';
+import pepperoni from '../images/pepperoni-pizza.jpg';
 
 
 const wrapper = document.querySelector('.wrapper');
@@ -55,7 +55,7 @@ function menuSection() {
   const menuItems = createElement('div', 'menu-items', '');
   const dishes = createElement('div', 'dishes', '');
   const hOne = createElement('h1', 'menu-title', 'PIZZA: ');
-  const dish1 = menuItem('PEPPERONI PIZZA', '../images/pepperoni-pizza.jpg');
+  const dish1 = menuItem('PEPPERONI PIZZA', `${pepperoni}`);
   const dish2 = menuItem('BOREWORES PIZZA', '../images/borewores-pizza.jpg');
   const dish3 = menuItem('VEGE PIZZA', '../images/vege-pizza.jpg');
   const hTwo = createElement('h1', 'menu-title', 'DRINKS: ');
