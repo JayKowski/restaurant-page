@@ -83,6 +83,7 @@ nav ul li {
   float: right;
   width: 40%;
   overflow-y: auto;
+  background-color: #F4F5F5;
 }
 
 .wrapper .sections .menu-banner .title {

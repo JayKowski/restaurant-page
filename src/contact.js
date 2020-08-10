@@ -1,4 +1,5 @@
 import createElement from './elementFactory';
+import '../css/contact.css';
 
 const wrapper = document.querySelector('.wrapper');
 const sections = document.querySelector('.sections');

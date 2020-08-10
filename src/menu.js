@@ -1,4 +1,5 @@
 import createElement from './elementFactory';
+import '../css/menu.css';
 
 const wrapper = document.querySelector('.wrapper');
 
