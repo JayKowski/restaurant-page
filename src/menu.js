@@ -1,5 +1,9 @@
 import createElement from './elementFactory';
 import '../css/menu.css';
+//import images;
+
+import '../images/pepperoni-pizza.jpg';
+
 
 const wrapper = document.querySelector('.wrapper');
 
