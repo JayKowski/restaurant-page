@@ -17,7 +17,7 @@ This is a restaurant page built for a fictional restaurant. All the html code is
  
 ## Live Link
 
-<!-- [Live Demo](https://alvaropaz.me/js_restaurant/) -->
+Check out the live link of the page at [Kowski's Eats](https://rawcdn.githack.com/JayKowski/restaurant-page/edf064e3a0a99042c73e2be8154214bc8df7b5c7/dist/index.html)
 
 ## Technologies Used
 
