@@ -1,4 +1,5 @@
 import createElement from './elementFactory';
+import '../css/navbar.css';
 
 export default function navigation(parent) {
   const nav = createElement('nav', 'navigation', '');
