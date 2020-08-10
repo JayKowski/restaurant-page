@@ -1,0 +1,49 @@
+nav {
+  background-color: #77e4e0;
+  overflow: auto;
+  /* opacity: 1; */
+  padding: 10px 0;
+}
+
+nav .media {
+  padding: 0 3% 0 1%;
+  text-align: center;
+  margin: 10px 0;
+  width: 10%;
+  float: left;
+}
+
+nav .media .icon {
+  padding: 10px;
+}
+
+nav .media i {
+  width: 22px;
+  height: 18px;
+  padding: 5px;
+  font-size: 19px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 4px 1%;
+  margin: auto;
+  width: 30%;
+}
+
+nav ul li {
+  color: #23001e;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-weight: bolder;
+  font-size: 27px;
+  display: inline-block;
+  padding: 0 4%;
+  width: 15%;
+}
+
+nav .link:hover {
+  cursor: pointer;
+}
