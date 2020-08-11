@@ -6,17 +6,17 @@ html {
   overflow: hidden;
 }
 
-.wrapper {
+.content {
   height: 100%;
 }
 
 /* banner stuff here */
 
-.wrapper .sections {
+.content .sections {
   height: 100%;
 }
 
-.wrapper .sections .contact-img {
+.content .sections .contact-img {
   background-image: url(../images/menu-banner-edit.jpg);
   height: 100%;
   float: left;
@@ -25,7 +25,7 @@ html {
   /* overflow-y: auto; */
 }
 
-.wrapper .sections .contact-sect {
+.content .sections .contact-sect {
   margin: 0;
   height: 100%;
   float: right;
@@ -34,7 +34,7 @@ html {
   background-color: #f4f5f5;
 }
 
-.wrapper .sections .contact-banner .title {
+.content .sections .contact-banner .title {
   font-family: 'Pacifico', cursive;
   font-size: 110px;
   text-align: center;
@@ -42,14 +42,14 @@ html {
   margin: 60px 0 0 0;
 }
 
-.wrapper .sections .contact-banner hr {
+.content .sections .contact-banner hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
   width: 65%;
 }
 
-.wrapper .sections .contact-banner .about-deets {
+.content .sections .contact-banner .about-deets {
   text-align: center;
   margin: 0 auto;
   width: 50%;

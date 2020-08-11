@@ -5,7 +5,8 @@ import '../css/menu.css';
 import pepperoni from '../images/pepperoni-pizza.jpg';
 
 
-const wrapper = document.querySelector('.wrapper');
+const wrapper = document.querySelector('.content');
+const sections = createElement('div', 'sections', '');
 
 function menuItem(foodName, src) {
   const dish = createElement('div', 'dish', '');
@@ -32,7 +33,6 @@ function menuItem(foodName, src) {
 
   return dish;
 }
-const sections = document.querySelector('.sections');
 
 
 function menuBanner() {

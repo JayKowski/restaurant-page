@@ -4,12 +4,12 @@ import { aboutPage } from './about';
 import menuPage from './menu';
 import contactPage from './contact';
 
+const wrapper = document.querySelector('.content');
+
 function cleanPage() {
   const sect = document.querySelector('.sections');
-  sect.innerHTML = '';
+  sect.parentElement.removeChild(sect);
 }
-
-const wrapper = document.querySelector('.wrapper');
 
 navigation(wrapper);
 homePage();

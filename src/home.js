@@ -1,8 +1,8 @@
 import createElement from './elementFactory';
 import '../css/styles.css';
 
-const wrapper = document.querySelector('.wrapper');
-const sections = document.querySelector('.sections');
+const wrapper = document.querySelector('.content');
+const sections = createElement('div', 'sections', '');
 
 function mainBody() {
   const mainDiv = createElement('div', 'bg-img', '');

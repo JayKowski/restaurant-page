@@ -5,7 +5,7 @@ html {
   height: 100%;
 }
 
-.wrapper {
+.content {
   background-image: url(../images/restaurant-pic.jpg);
   height: 100%;
   background-position: center;
@@ -14,7 +14,7 @@ html {
 }
 
 /* WRAPPER STUFF */
-.wrapper .rest-info {
+.content .rest-info {
   position: absolute;
   left: 34%;
   top: 25%;
@@ -24,12 +24,12 @@ html {
   padding: 40px 25px;
 }
 
-.wrapper .welcome .rest-logo {
+.content .welcome .rest-logo {
   width: 150px;
   height: 100px;
 }
 
-.wrapper .rest-info p {
+.content .rest-info p {
   margin: 0;
   font-family: 'Amatic SC', cursive;
   font-weight: bolder;
@@ -37,11 +37,11 @@ html {
   margin-bottom: 20px;
 }
 
-.wrapper .rest-info hr {
+.content .rest-info hr {
   border: 1px solid #5f0f40;
 }
 
-.wrapper .rest-dine {
+.content .rest-dine {
   width: 100px;
   height: 50px;
 }

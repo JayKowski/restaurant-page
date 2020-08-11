@@ -1,8 +1,8 @@
 import createElement from './elementFactory';
 import '../css/about.css';
 
-const wrapper = document.querySelector('.wrapper');
-const sections = document.querySelector('.sections');
+const wrapper = document.querySelector('.content');
+const sections = createElement('div', 'sections', '');
 
 function aboutBanner() {
   const banner = createElement('div', 'back-img', '');

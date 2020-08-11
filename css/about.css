@@ -5,24 +5,24 @@ html {
   height: 100%;
 }
 
-.wrapper {
+.content {
   height: 100%;
 }
 
 /* rest of the stuff here */
 
-.wrapper .sections {
+.content .sections {
   height: 100%;
 }
 
-.wrapper .back-img {
+.content .back-img {
   background-image: url(../images/about-bckgrnd-edit.jpg);
   height: 100%;
   float: left;
   width: 60%;
 }
 
-.wrapper .sections .about .title {
+.content .sections .about .title {
   font-family: 'Pacifico', cursive;
   font-size: 120px;
   text-align: center;
@@ -38,14 +38,14 @@ html {
   color: rgb(239, 91, 91);
 }
 
-.wrapper .sections .about hr {
+.content .sections .about hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
   width: 65%;
 }
 
-.wrapper .sections .about .about-deets {
+.content .sections .about .about-deets {
   text-align: center;
   margin: 0 auto;
   width: 50%;

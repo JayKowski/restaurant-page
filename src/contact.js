@@ -1,8 +1,8 @@
 import createElement from './elementFactory';
 import '../css/contact.css';
 
-const wrapper = document.querySelector('.wrapper');
-const sections = document.querySelector('.sections');
+const wrapper = document.querySelector('.content');
+const sections = createElement('div', 'sections', '');
 
 function formElemGen(lFor, lCont, iType, iId, iName) {
   let el;
