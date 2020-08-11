@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  height: 100%;
+}
+
+/* menu banner stuff here */
+
+.content .sections {
+  height: 100%;
+}
+
+.content .sections .menu-img {
+  background-image: url(../images/menu-banner-edit.jpg);
+  height: 100%;
+  float: left;
+  width: 60%;
+
+  /* overflow-y: auto; */
+}
+
+.content .sections .menu-sect {
+  margin: 0;
+  height: 100%;
+  float: right;
+  width: 40%;
+  overflow-y: auto;
+  background-color: #f4f5f5;
+}
+
+.content .sections .menu-banner .title {
+  font-family: 'Pacifico', cursive;
+  font-size: 110px;
+  text-align: center;
+  color: #fff;
+  margin: 60px 0 0 0;
+}
+
+.content .sections .menu-banner hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+  width: 65%;
+}
+
+.content .sections .menu-banner .about-deets {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 33px;
+  color: #cdcdcd;
+}
+
+/* Menu section here */
+
+.sections .menu-items h1 {
+  margin: 10px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+}
+
+/* dishes */
+
+.menu-items .dishes .heading {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0 16px 0 16px;
+}
+
+.menu-items .dishes .dish {
+  width: 95%;
+  margin: 15px auto;
+  padding-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.menu-items .dishes .dish-image {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu-items .dishes img {
+  vertical-align: sub;
+  padding: 10px;
+  margin-top: 10px;
+  width: 160px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.menu-items .dishes .ingredients {
+  margin-bottom: 5px;
+}
+
+.menu-items .dishes .dish-info {
+  margin: 10px 0;
+  display: inline-block;
+  width: 55%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.menu-items .dishes .size-price {
+  margin: 4px;
+  padding: 5px;
+  color: #aaa;
+}

@@ -1,0 +1,114 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  height: 100%;
+}
+
+/* banner stuff here */
+
+.content .sections {
+  height: 100%;
+}
+
+.content .sections .contact-img {
+  background-image: url(../images/menu-banner-edit.jpg);
+  height: 100%;
+  float: left;
+  width: 60%;
+
+  /* overflow-y: auto; */
+}
+
+.content .sections .contact-sect {
+  margin: 0;
+  height: 100%;
+  float: right;
+  width: 40%;
+  overflow-y: auto;
+  background-color: #f4f5f5;
+}
+
+.content .sections .contact-banner .title {
+  font-family: 'Pacifico', cursive;
+  font-size: 110px;
+  text-align: center;
+  color: #fff;
+  margin: 60px 0 0 0;
+}
+
+.content .sections .contact-banner hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+  width: 65%;
+}
+
+.content .sections .contact-banner .about-deets {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 33px;
+  color: #cdcdcd;
+}
+
+/* contact form stuff here */
+
+.sections .contact-items .form-area {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.contact-items .form-area .heading {
+  margin: 5px auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.contact-items .form-area p {
+  width: 85%;
+  margin: 5px auto;
+  font-family: 'Cairo', sans-serif;
+}
+
+.sections .contact-sect form {
+  width: 60%;
+  margin: 15px auto;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Cairo', sans-serif;
+
+  /* padding-left: 15%; */
+}
+
+.contact-sect form label {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.contact-sect form input[type=text],
+.contact-sect form input[type=number],
+.contact-sect form input[type=email] {
+  width: 92%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-sect form input[type=submit] {
+  padding: 7px;
+  margin-top: 5px;
+  background-color: #77e4e0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #444;
+  width: 30%;
+}
